@@ -169,7 +169,7 @@ We start off with the obvious ones. Based on the structure of the code, we can g
 -   `finna ⟶ {`
 -   `tho ⟶ }`
 
-Also, we know that the signature of the `main` function should be `int main ()`, meaning:
+Also, we know that the signature of the `main` function at the bottom of the file should be `int main ()`, meaning:
 
 -   `lit ⟶ int`
 -   `ongod ⟶ (`
@@ -286,7 +286,7 @@ Since there is no `return` statement, we know `legit` should map to `void`. Also
 
 We can also see that since the parameter being passed in is `char mf y`, this should become `char * y`.
 
-Now, based on the structure of the body of this for loop we have, now make tell that `tryna` should be `if`, meaning we have a bunch of conditional blocks. It would then make sense that `be` maps to `==`, and after filling those in, we have `if ( i == 5 like i == 6 )`, meaning that `like` is probably `||`. Side note: we assumed that the final code wouldn't attempt to trick us too much, so `like` wouldn't be `&&` which wouldn't make sense. Using this assumption, we also assumed that,
+Now, based on the structure of the body of this for loop we have, we can tell that `tryna` should be `if`, meaning we have a bunch of conditional blocks. It would then make sense that `be` maps to `==`, and after filling those in, we have `if ( i == 5 like i == 6 )`, meaning that `like` is probably `||`. Side note: we assumed that the final code wouldn't attempt to trick us too much, so `like` wouldn't be `&&` which wouldn't make sense. Using this assumption, we also assumed that,
 
 ```c
 if ( i == 2 )
