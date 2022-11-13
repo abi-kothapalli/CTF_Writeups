@@ -2,7 +2,7 @@
 
 This litty challenge was highkey bussin bruh, on god, no cap fr fr. Sheeesh.
 
-## Background/Setup
+## Yikes, what's this mf challenge boutta be bruh?
 
 We are given the following file:
 
@@ -433,13 +433,15 @@ void wilin ( char * z , int n )
 
 After racking our brains for a bit, we realized that the different equality checks and the recursion meant that `drip` and `sus` together were forming the conditional ternary operator, and these were actually being chained together! Since `sus` comes before `drip`, we let `sus` become `?` and `drip` become `:`.
 
-We then run the program and our output is:
+## We got the dub, stop playin! Sheeesh!
+
+We ran the final program and our output was:
 
 ```
 buckeye{7h47_5h17_mf_bu551n_n0_c4p}
 ```
 
-At this point the flag worked, but we also ran a few other tests with `<=` and `>=` for `lowkey` and `highkey` and `~` instead of `!` for `no`. The resulting programs either threw exceptions or gave incorrect flags.
+At this point the flag worked, but we also ran a few other tests with `<=` and `>=` for `lowkey` and `highkey` and `~` instead of `!` for `no`, just out of curiosity. The resulting programs either threw exceptions or gave incorrect flags.
 
 # Conclusions/Reflections
 
